@@ -219,7 +219,7 @@ If we instantiate a model with an `id`, Backbone.js will automatically perform a
 
 ### Updating a model
 
-Now that we have a model that exist on the server we can perform an update using a PUT request.
+Now that we have a model that exists on the server we can perform an update using a PUT request.
 We will use the `save` api call which is intelligent and will send a PUT request instead of a POST request if an `id` is present(conforming to RESTful conventions)
 
 {% highlight javascript %}
