@@ -245,7 +245,7 @@ We will use the `save` api call which is intelligent and will send a PUT request
 
 ### Deleting a model
 
-When a model has an `id` we know that it exist on the server, so if we wish to remove it from the server we can call `destroy`.  `destroy` will fire off a DELETE /user/id (conforming to RESTful conventions).
+When a model has an `id`, we know that it exists on the server, so if we wish to remove it from the server we can call `destroy`.  `destroy` will fire off a DELETE /user/id (conforming to RESTful conventions).
 
 {% highlight javascript %}
 
